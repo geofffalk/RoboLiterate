@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="0dip"
+                  android:layout_weight="1"
+                  android:layout_margin="8dip"
+                  android:layout_marginTop="10dip">
+
+
+    <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+                  <!--android:orientation="horizontal"-->
+                  <!--android:layout_width="match_parent"-->
+                  <!--android:layout_height="wrap_content"-->
+                  <!--android:layout_marginTop="10dip">-->
+
+
+        <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textAppearance="@style/CustomMonoFont"-->
+                <!--android:text="@string/console"-->
+
+                <!--android:layout_gravity="bottom"/>-->
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:orientation="horizontal"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:paddingTop="8dip"
+                      android:paddingBottom="8dip"
+                      android:paddingLeft="8dip"
+                      android:paddingRight="8dip"
+                android:background="@drawable/border2"
+                android:id="@+id/sensorReadingBox"
+                android:baselineAligned="false"
+                android:layout_marginLeft="20dip"
+                android:layout_gravity="right"
+                android:gravity="right">
+
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sensor_reading"
+                android:textColor="@color/grey"
+                android:paddingTop="3dip"
+                android:id="@+id/sensorReadingTitle"
+                android:paddingBottom="3dip"
+                android:textAppearance="@style/CustomMonoFontSmall"
+                />
+
+        <TextView
+                android:minWidth="100dip"
+                android:id="@+id/sensorReading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@color/color1a"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="3dip"
+                android:paddingBottom="3dip"
+                android:layout_marginLeft="10dip"
+                android:background="@drawable/border2"
+                android:textAppearance="@style/CustomMonoFontSmall"
+                android:text="@string/dash"/>
+            </LinearLayout>
+
+
+    <!--</LinearLayout>-->
+
+
+            <org.maskmedia.roboliterate.uicontroller.ConsoleTextView
+                    android:id="@+id/consoleView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="bottom"
+                    android:scrollbars="vertical"
+                    android:maxLines="1000"
+                    android:background="@drawable/border"
+                    android:textAppearance="@style/CustomFont"
+                    android:padding="8dip"
+                    android:text=""
+                    android:layout_marginTop="10dip"
+
+                    />
+
+
+
+
+</LinearLayout>
+
+    <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dip"
+            android:layout_marginBottom="20dip"
+
+            >
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dip"
+            android:paddingRight="20dip"
+            android:text="@string/run_program"
+            style="@style/button2"
+            android:id="@+id/startButton"
+            />
+
+        <!--<Button-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:paddingLeft="20dip"-->
+                <!--android:paddingRight="20dip"-->
+                <!--android:text="@string/stop_program"-->
+                <!--style="@style/button4"-->
+                <!--android:visibility="gone"-->
+                <!--android:id="@+id/stopButton"-->
+                <!--/>-->
+    </FrameLayout>
+<!--</LinearLayout>-->
+</LinearLayout>

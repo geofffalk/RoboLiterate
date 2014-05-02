@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="320dp"
+              android:layout_height="wrap_content"
+              android:background="@android:color/white" >
+
+    <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textAppearance="@style/CustomFontTitle"-->
+            <!--android:text="@string/configure_robot"-->
+            <!--android:padding="11dip"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:gravity="center_horizontal"-->
+            <!--android:background="@color/color1a"-->
+            <!--/>-->
+
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dip"
+            android:textAppearance="@style/CustomMonoFont"
+            android:textColor="@android:color/white"
+            android:text="@string/motor_ports"
+            android:background="@color/color2"
+            android:layout_gravity="left|center_vertical"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="10dp">
+<ImageView
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:layout_height="1dp" />
+
+        <TextView
+            android:text="@string/motor_left"
+            android:textColor="@color/color1"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/CustomMonoFontSmall"/>
+        <Spinner
+
+            android:id="@+id/leftmotor_spinner"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/CustomMonoFontSmall"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="1dp" />
+        <TextView
+            android:text="@string/motor_right"
+
+
+            android:textColor="@color/color1"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/CustomMonoFontSmall"/>
+        <Spinner
+
+            android:id="@+id/rightmotor_spinner"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/CustomMonoFont"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="1dp" />
+
+
+        </LinearLayout>
+
+
+    <TextView
+        android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dip"
+                android:textColor="@android:color/white"
+        android:layout_marginTop="10dp"
+
+                android:background="@color/color2"
+                android:textAppearance="@style/CustomMonoFont"
+                android:text="@string/sensor_ports"
+                android:layout_gravity="left|center_vertical"/>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="10dp">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="1dp" />
+
+
+        <TextView
+                android:text="@string/color_light"
+                android:textColor="@color/color1"
+                android:layout_width="0dp"
+            android:layout_weight="4"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/CustomMonoFontSmall" />
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_weight="5"
+                android:id="@+id/color_spinner"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/CustomMonoFontSmall"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="1dp" />
+
+
+        <TextView
+                android:text="@string/infrared_sensor"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+
+                android:textColor="@color/color1"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/CustomMonoFontSmall" />
+        <Spinner
+                android:id="@+id/infrared_spinner"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/CustomMonoFontSmall"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="1dp" />
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="10dp">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="1dp" />
+
+
+        <TextView
+            android:text="@string/switch_sensor"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:textColor="@color/color1"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/CustomMonoFontSmall" />
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:id="@+id/switch_spinner"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/CustomMonoFontSmall"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="1dp" />
+
+        <TextView
+            android:text="@string/sound_sensor"
+            android:textColor="@color/color1"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/CustomMonoFontSmall"/>
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:id="@+id/sound_spinner"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/CustomMonoFontSmall"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="1dp" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="10dp">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="1dp" />
+
+        <TextView
+            android:text="@string/ultrasonic_sensor"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:textColor="@color/color1"
+
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/CustomMonoFontSmall" />
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_weight="5"
+
+            android:id="@+id/ultrasonic_spinner"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/CustomMonoFontSmall"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="12"
+            android:layout_height="1dp" />
+
+       </LinearLayout>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ok"
+            android:paddingTop="10dip"
+        android:layout_weight="1"
+            android:paddingBottom="10dip"
+            android:paddingLeft="40dip"
+            android:paddingRight="40dip"
+            android:layout_marginTop="5dip"
+            android:layout_marginBottom="5dip"
+            android:layout_gravity="center"
+            android:id="@+id/doneButton"
+            style="@style/button2"/>
+</LinearLayout>

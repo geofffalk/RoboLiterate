@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:gravity="center_horizontal|center_vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="0dp"
+                  android:background="#ffffff"
+            android:layout_weight="2">
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="5dip"
+            android:text="@string/remote_controller"
+            android:textAppearance="@style/CustomFontButton"
+            android:id="@+id/b_remoteControl"
+            style="@style/button3"
+
+            />
+
+
+    <Button
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+        android:layout_marginTop="30dip"
+            android:text="@string/new_story"
+        android:textAppearance="@style/CustomFontButton"
+            android:id="@+id/b_newStory"
+            style="@style/button1"
+
+
+/>
+
+    <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:padding="10dip"-->
+            <!--android:layout_marginTop="20dip"-->
+            <!--android:text="@string/continue_story"-->
+        <!--android:textAppearance="@style/CustomFontButton"-->
+            <!--android:id="@+id/b_continueStory"-->
+            <!--style="@style/button2"-->
+
+            />
+        </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="0dip"
+                  android:layout_weight="2"
+        android:layout_marginTop="20dip"
+                  android:layout_marginLeft="20dip"
+                  android:layout_marginRight="20dip"
+                  android:layout_marginBottom="20dip"
+                  android:padding="10dip"
+            android:background="@drawable/border">
+
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:textColor="@color/color1"
+                android:background="@color/white"
+                android:text="@string/saved_stories"
+                android:textAppearance="@style/CustomFontTitle"
+                android:id="@+id/textView"
+                android:layout_gravity="left"/>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:id="@+id/savedStoryList"
+            android:layout_gravity="bottom"
+            android:paddingTop="10px"
+            android:layout_weight="3"
+            android:background="#ffffff"
+            android:layout_height="0dip"
+            />
+    </LinearLayout>
+</LinearLayout>

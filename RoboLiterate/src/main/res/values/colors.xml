@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color4">#33B5E5</color>
+    <color name="color4a">#0099CC</color>
+    <color name="color2">#AA66CC</color>
+    <color name="color1">#99CC00</color>
+    <color name="color1a">#669900</color>
+    <color name="color3a">#FFBB33</color>
+    <color name="color3">#FF8800</color>
+    <color name="color5">#FF4444</color>
+    <color name="color5a">#CC0000</color>
+    <color name="lightgrey">#c2c2c2</color>
+    <color name="white">#ffffff</color>
+    <color name="grey">#a6a6a6</color>
+    <color name="darkgrey">#808080</color>
+    <color name="actionbar_text">#cc0000</color>
+</resources>

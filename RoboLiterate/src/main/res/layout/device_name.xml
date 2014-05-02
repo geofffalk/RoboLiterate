@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+
+    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/color1button"
+        android:paddingTop="10dip"
+        android:paddingBottom="15dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="5dip"
+        android:layout_marginBottom="5dip">
+<ImageView
+android:id="@+id/icon"
+android:layout_width="30dip"
+android:layout_height="30dip"
+android:layout_marginLeft="4dip"
+android:layout_marginRight="10dip"
+android:layout_marginTop="1dip"
+android:src="@drawable/nxt_icon"
+android:contentDescription="@string/icon">
+</ImageView>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
+<TextView
+android:id="@+id/device_name"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="5dip"
+android:text="@string/robot_name"
+android:textColor="@color/white"
+    android:textAppearance="@style/CustomFont">
+</TextView>
+        <TextView
+                android:id="@+id/device_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:text="@string/robot_address"
+                android:textColor="@color/white"
+                android:textAppearance="@style/CustomMonoFontSmall">
+        </TextView>
+</LinearLayout>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="5dp" />
+</LinearLayout>

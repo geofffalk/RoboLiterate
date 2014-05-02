@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="console_check_for_sound">Checking for sound files to upload...</string>
+    <string name="console_found_sound">sounds to upload to robot...</string>
+    <string name="console_no_sound">No sounds found. Beginning program...</string>
+    <string name="init_uploading">Uploading file:</string>
+    <string name="success_uploading">Successfully uploaded</string>
+    <string name="failure_uploading">Not enough memory on robot. This sound won\'t play.</string>
+    <string name="program_start">Starting program.</string>
+    <string name="program_complete">Program ended.</string>
+    <string name="uploading">Uploading</string>
+    <string name="no_space">No space in robot\'s memory. This sound won\'t play.</string>
+</resources>

@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:layout_alignParentTop="true"
+              android:padding="5dp"
+              android:background="@color/white"
+              android:layout_alignLeft="@+id/textView">
+<LinearLayout    android:layout_height="0dip"
+                 android:layout_weight="5"
+                 android:layout_width="match_parent"
+                 android:orientation="horizontal">
+
+    <TextView
+            android:layout_width="0dip"
+            android:layout_weight="15"
+            android:text="@string/my_program"
+            android:id="@+id/programText"
+            android:layout_alignLeft="@android:id/list"
+            android:background="@drawable/border"
+            android:padding="10dp"
+            android:textColor="@color/color1a"
+            android:textAppearance="@style/CustomFont"
+            android:layout_height="match_parent"/>
+    <ImageButton
+        android:layout_weight="3"
+        android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:src="@drawable/back"
+            android:id="@+id/deleteButton"
+            style="@style/button2"
+        android:minWidth="65px"
+            android:layout_gravity="center"/>
+</LinearLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dip"
+                    android:background="#ffffff"
+                    android:layout_weight="8">
+
+
+    <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello"
+            android:layout_marginTop="10dip"
+            />
+
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/accept"
+            android:padding="20dip"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            style="@style/button1"
+            android:id="@+id/executeButton"
+            android:layout_gravity="center"/>
+
+        <!--<Button-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentBottom="true"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:text="Record a new line"-->
+                <!--android:id="@+id/recordSoundButton"-->
+                <!--android:paddingLeft="10dip"-->
+                <!--android:paddingRight="10dip"-->
+<!--style="@style/button4"-->
+                <!--android:layout_gravity="center"/>-->
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+</LinearLayout>
+

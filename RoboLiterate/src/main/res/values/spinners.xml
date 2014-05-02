@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="nxt_motor_ports">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>NONE</item>
+    </string-array>
+    <string-array name="ev3_motor_ports">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>NONE</item>
+    </string-array>
+    <string-array name="sensor_ports">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>NONE</item>
+    </string-array>
+</resources>

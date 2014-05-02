@@ -1,0 +1,86 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="RoboLiterateTheme" parent="@style/Theme.AppCompat.Light">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <!--<item name="android:actionMenuTextColor">@color/actionbar_text</item>-->
+
+    </style>
+
+        <style name="CustomFont" parent="@android:style/TextAppearance.Medium">
+            <item name="android:textSize">20dp</item>
+            <item name="android:typeface">sans</item>
+        </style>
+    <style name="CustomMonoFont" parent="@android:style/TextAppearance.Medium">
+        <item name="android:typeface">monospace</item>
+    </style>
+    <style name="CustomMonoFontSmall" parent="@android:style/TextAppearance.Small">
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="CustomStoryFont" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/darkgrey</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="CustomFontTitle" parent="@android:style/TextAppearance.Large">
+        <item name="android:typeface">monospace</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+
+    <style name="CustomFontButton" parent="@android:style/TextAppearance.Medium">
+        <item name="android:typeface">monospace</item>
+       </style>
+
+    <style name="button1">
+        <item name="android:background">@drawable/color1button</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAppearance">@style/CustomFontButton</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+
+    </style>
+
+    <style name="button2">
+        <item name="android:background">@drawable/color2button</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAppearance">@style/CustomFontButton</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+
+    <style name="button3">
+        <item name="android:background">@drawable/color3button</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAppearance">@style/CustomFontButton</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+
+    <style name="button4">
+        <item name="android:background">@drawable/color4button</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAppearance">@style/CustomFontButton</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+
+    <style name="button5">
+        <item name="android:background">@drawable/color5button</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAppearance">@style/CustomFontButton</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+
+
+
+</resources>

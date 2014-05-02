@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_margin="10dip">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_marginLeft="10dip"
+                  android:layout_marginTop="10dip">
+
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/record"
+            style="@style/button4"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="10dip"
+            android:id="@+id/recordButton"
+            android:layout_gravity="left"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginRight="10dip"
+            android:text="@string/play"
+            style="@style/button3"
+            android:id="@+id/playButton"
+            />
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                style="@style/button2"
+                android:layout_marginRight="10dip"
+                android:text="@string/ok"
+                android:id="@+id/doneButton"
+                />
+</LinearLayout>
+
+</LinearLayout>

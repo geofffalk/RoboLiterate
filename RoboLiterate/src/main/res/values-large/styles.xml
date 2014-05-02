@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="CustomFont" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">25dp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+    <style name="CustomMonoFont" parent="@android:style/TextAppearance.Medium">
+        <item name="android:typeface">monospace</item>
+    </style>
+    <style name="CustomMonoFontSmall" parent="@android:style/TextAppearance.Small">
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="CustomStoryFont" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/darkgrey</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="CustomFontTitle" parent="@android:style/TextAppearance.Large">
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+
+    <style name="CustomFontButton" parent="@android:style/TextAppearance.Medium">
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">30dp</item>
+    </style>
+
+
+</resources>

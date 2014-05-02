@@ -1,0 +1,169 @@
+First,1,-1,0,0,0,0,0,,0,1
+After a few seconds,1,0,0,3,0,0,0,,0,5
+After 5 seconds,1,0,0,5,0,0,0,,0,6
+After 10 seconds,1,0,0,10,0,0,0,,0,7
+At the same time,1,0,0,0,0,0,0,,0,2
+After that,1,0,0,0,0,0,0,,1,1
+When,2,0,0,0,0,0,0,,0,4
+comma,1,2200,0,0,0,0,0,,1,1
+ROBOT,10,1,0,0,0,0,0,,0,1
+ANDROID,11,1,0,0,0,0,0,,0,2
+ROBOT,20,2,0,0,0,0,0,,0,1
+waits,104,10,0,0,0,0,0,,0,6
+moves forward,105,10,1,0,1,0,0,,0,1
+moves back,105,10,1,0,-1,0,0,,0,2
+turns left,106,10,2,0,0,-1,0,,0,3
+turns right,106,10,2,0,0,1,0,,0,4
+rotates motor,118,10,13,0,0,0,0,,0,5
+until it sees with ultrasonics,107,104,3,0,0,0,0,,0,1
+until it detects light,108,104,4,0,0,0,0,,0,3
+until its sees with infrared,107,104,14,0,0,0,0,,0,1
+until it hears sound,109,104,5,0,0,0,0,,0,2
+until it touches something.,117,104,12,0,1,1,0,,0,4
+beeps,110,10,6,0,0,0,0,,0,7
+stops motors.,111,10,1,0,0,0,0,,0,8
+says,113,11,8,0,0,0,0,,0,1
+plays,114,11,9,0,0,0,0,,0,2
+stops all sounds.,115,11,10,0,0,0,0,,0,3
+Then repeat,116,0,11,0,0,0,0,,1,3
+sees with ultrasonics,201,20,3,0,0,0,0,,0,1
+hears a sound,202,20,5,0,0,0,0,,0,2
+sees with infrared,201,20,14,0,0,0,0,,0,3
+detects light,203,20,4,0,0,0,0,,0,4
+touches something,2200,20,12,0,1,1,0,,0,5
+continuously,1105,105,0,0,0,0,0,,0,1
+1 wheel rotation,1105,105,0,0,0,500,0,,0,2
+2 wheel rotations,1105,105,0,0,0,1000,0,,0,3
+3 wheel rotations,1105,105,0,0,0,1500,0,,0,4
+4 wheel rotations,1105,105,0,0,0,2000,0,,0,5
+5 wheel rotations,1105,105,0,0,0,2500,0,,0,6
+6 wheel rotations,1105,105,0,0,0,3000,0,,0,7
+7 wheel rotations,1105,105,0,0,0,3500,0,,0,8
+8 wheel rotations,1105,105,0,0,0,4000,0,,0,9
+9 wheel rotations,1105,105,0,0,0,4500,0,,0,10
+10 wheel rotations,1105,105,0,0,0,5000,0,,0,11
+by a 25% wheel rotation.,1106,106,0,0,90,50,0,,0,3
+by a 50% wheel rotation.,1106,106,0,0,180,50,0,,0,4
+by a 65% wheel rotation.,1106,106,0,0,234,50,0,,0,5
+by a 75% wheel rotation.,1106,106,0,0,270,50,0,,0,6
+by 1 wheel rotation.,1106,106,0,0,360,50,0,,0,7
+by 2 wheel rotations.,1106,106,0,0,720,50,0,,0,8
+by 3 wheel rotations.,1106,106,0,0,1080,50,0,,0,9
+continuously.,1106,106,0,0,0,50,0,,0,9
+A,1118,118,0,0,0,0,0,,0,1
+B,1118,118,0,0,0,0,1,,0,2
+C,1118,118,0,0,0,0,2,,0,3
+D,1118,118,0,0,0,0,3,,0,4
+forwards,11118,1118,0,0,1,0,0,,0,1
+backwards,11118,1118,0,0,-1,0,0,,0,2
+continuously,111118,11118,0,0,0,0,0,,0,1
+1 rotation,111118,11118,0,0,0,360,0,,0,2
+2 rotations,111118,11118,0,0,0,720,0,,0,3
+3 rotations,111118,11118,0,0,0,1080,0,,0,4
+4 rotations,111118,11118,0,0,0,1440,0,,0,5
+5 rotations,111118,11118,0,0,0,1800,0,,0,6
+6 rotations,111118,11118,0,0,0,2160,0,,0,7
+7 rotations,111118,11118,0,0,0,2520,0,,0,8
+8 rotations,111118,11118,0,0,0,2880,0,,0,9
+9 rotations,111118,11118,0,0,0,3240,0,,0,10
+10 rotations,111118,11118,0,0,0,3600,0,,0,11
+something under 10cm away.,1107,107,0,0,1,10,0,,0,1
+something under 20cm away.,1107,107,0,0,1,20,0,,0,2
+something under 30cm away.,1107,107,0,0,1,30,0,,0,3
+something 30cm - 40cm away.,1107,107,0,0,30,40,0,,0,4
+something 40cm - 50cm away.,1107,107,0,0,40,50,0,,0,5
+something over 50cm away.,1107,107,0,0,50,250,0,,0,5
+something 50 - 60 cm away.,1119,119,0,0,50,60,0,,0,1
+something 60 - 70 cm away.,1119,119,0,0,60,70,0,,0,2
+under 10% brightness.,1108,108,0,0,0,10,0,,0,1
+under 30% brightness.,1108,108,0,0,0,30,0,,0,2
+with 30% - 40% brightness.,1108,108,0,0,30,40,0,,0,3
+with 40% - 50% brightness.,1108,108,0,0,40,50,0,,0,4
+with 50% - 60% brightness.,1108,108,0,0,50,60,0,,0,5
+with 60% - 70% brightness.,1108,108,0,0,60,70,0,,0,6
+over 70% brightness.,1108,108,0,0,70,100,0,,0,7
+over 90% brightness.,1108,108,0,0,90,100,0,,0,8
+less than 10dB.,1109,109,0,0,0,10,0,,0,1
+between 10dB and 30dB.,1109,109,0,0,10,30,0,,0,2
+between 30dB and 50dB.,1109,109,0,0,10,30,0,,0,3
+between 50dB and 70dB.,1109,109,0,0,50,70,0,,0,4
+over 70dB.,1109,109,0,0,70,120,0,,0,5
+over 80dB.,1109,109,0,0,80,120,0,,0,6
+over 90dB.,1109,109,0,0,80,90,120,,0,6
+A,1110,110,0,0,440,0,0,,0,1
+B FLAT,1110,110,0,0,466,0,0,,0,2
+B,1110,110,0,0,493,0,0,,0,3
+C,1110,110,0,0,523,0,0,,0,4
+C SHARP,1110,110,0,0,554,0,0,,0,5
+D,1110,110,0,0,587,0,0,,0,6
+E FLAT,1110,110,0,0,622,0,0,,0,7
+E,1110,110,0,0,659,0,0,,0,8
+F,1110,110,0,0,698,0,0,,0,9
+F SHARP,1110,110,0,0,740,0,0,,0,10
+G,1110,110,0,0,784,0,0,,0,11
+A flat,1110,110,0,0,831,0,0,,0,12
+‘Once upon a time there lived a lonely little robot.’.,1113,113,0,0,2,0,0,onceuponatime.mp3,0,1
+sad music,1114,114,0,0,0,0,0,music_sad_sombre.mp3,0,3
+happy music,1114,114,0,0,0,0,0,music_goodbye_love.mp3,0,1
+adventurous music,1114,114,0,0,0,0,0,music_monster_factory.mp3,0,4
+chasing music,1114,114,0,0,0,0,0,music_mr_tiny.mp3,0,5
+quirky music,1114,114,0,0,0,0,0,music_night_is_day.mp3,0,6
+scary music,1114,114,0,0,0,0,0,music_arabian_thief.mp3,0,2
+the last sentence,1116,116,0,0,1,0,0,,0,1
+the last 2 sentences,1116,116,0,0,2,0,0,,0,2
+the last 3 sentences,1116,116,0,0,3,0,0,,0,3
+the last 4 sentences,1116,116,0,0,4,0,0,,0,4
+the last 5 sentences,1116,116,0,0,5,0,0,,0,5
+the last 6 sentences,1116,116,0,0,6,0,0,,0,6
+the last 7 sentences,1116,116,0,0,7,0,0,,0,7
+the last 8 sentences,1116,116,0,0,8,0,0,,0,8
+the last 9 sentences,1116,116,0,0,9,0,0,,0,9
+the last 10 sentences,1116,116,0,0,10,0,0,,0,10
+something under 10 cm away,2200,201,0,0,1,10,0,,0,1
+something under 20cm away,2200,201,0,0,1,20,0,,0,2
+something under 30cm away,2200,201,0,0,1,30,0,,0,3
+something 30cm - 40cm away,2200,201,0,0,30,40,0,,0,4
+something 40cm - 50cm away,2200,201,0,0,40,50,0,,0,5
+something over 50cm away,2200,201,0,0,50,250,0,,0,6
+something 50 - 60 cm away,2200,203,0,0,50,60,0,,0,1
+something 60 - 70 cm away,2200,203,0,0,60,70,0,,0,2
+below 10dB,2200,202,0,0,0,10,0,,0,1
+between 10dB and 20dB,2200,202,0,0,10,20,0,,0,2
+between 20dB and 30dB,2200,202,0,0,20,30,0,,0,3
+between 30dB and 40dB,2200,202,0,0,30,40,0,,0,4
+between 40dB and 50dB,2200,202,0,0,40,50,0,,0,5
+between 50dB and 60dB,2200,202,0,0,50,60,0,,0,6
+over 60dB,2200,202,0,0,60,120,0,,0,6
+over 70dB,2200,202,0,0,70,120,0,,0,6
+over 80dB,2200,202,0,0,80,120,0,,0,6
+over 90dB,2200,202,0,0,90,120,0,,0,6
+under 10% brightness,2200,203,0,0,0,10,0,,0,1
+under 30% brightness,2200,203,0,0,0,30,0,,0,2
+with 30%-40% brightness,2200,203,0,0,30,40,0,,0,3
+with 40%-50% brightness,2200,203,0,0,40,50,0,,0,4
+with 50%-60% brightness,2200,203,0,0,50,60,0,,0,5
+with 60%-70% brightness,2200,203,0,0,60,70,0,,0,6
+with over 70% brightness,2200,203,0,0,70,100,0,,0,7
+with over 90% brightness,2200,203,0,0,90,100,0,,0,8
+at 30% speed.,11105,1105,0,0,30,0,0,,0,1
+at 60% speed.,11105,1105,0,0,60,0,0,,0,2
+at 90% speed.,11105,1105,0,0,90,0,0,,0,3
+at 30% speed.,1111118,111118,0,0,30,0,0,,0,1
+at 60% speed.,1111118,111118,0,0,60,0,0,,0,2
+at 90% speed.,1111118,111118,0,0,90,0,0,,0,3
+for 1 second.,11110,1110,0,0,0,600,0,,0,1
+for half a second.,11110,1110,0,0,0,300,0,,0,2
+for 2 seconds.,11110,1110,0,0,0,1200,0,,0,3
+for 1 minute.,11114,1114,0,0,0,60,0,,0,4
+for 30 seconds.,11114,1114,0,0,0,30,0,,0,3
+for 20 seconds.,11114,1114,0,0,0,20,0,,0,2
+for 10 seconds.,11114,1114,0,0,0,10,0,,0,1
+continuously.,11114,1114,0,0,0,0,0,,0,5
+for 10 seconds.,11116,1116,0,0,0,10,1,,0,4
+for 20 seconds.,11116,1116,0,0,0,20,1,,0,5
+for 30 seconds.,11116,1116,0,0,0,30,1,,0,6
+1 more time.,11116,1116,0,0,0,0,1,,0,1
+2 more times.,11116,1116,0,0,0,0,2,,0,2
+3 more times.,11116,1116,0,0,0,0,3,,0,2
+4 more times.,11116,1116,0,0,0,0,4,,0,2
+5 more times.,11116,1116,0,0,0,0,5,,0,3

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white" >
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:textAppearance="@style/CustomFontTitle"-->
+    <!--android:text="@string/configure_robot"-->
+    <!--android:padding="11dip"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:gravity="center_horizontal"-->
+    <!--android:background="@color/color1a"-->
+    <!--/>-->
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:textAppearance="@style/CustomMonoFont"
+        android:textColor="@android:color/white"
+        android:text="@string/motor_ports"
+        android:background="@color/color2"
+        android:layout_gravity="left|center_vertical"/>
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="320dp"
+        android:layout_height="200dip"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dip"
+        android:layout_marginLeft="10dip"
+        app:rowCount="2"
+        app:columnCount="2">
+
+
+        <TextView
+            android:text="@string/motor_left"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginTop="5dp"
+
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="20dip"
+            android:textColor="@color/color1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/CustomMonoFont"/>
+        <Spinner
+            android:layout_row="0"
+            android:layout_column="1"
+            android:id="@+id/leftmotor_spinner"
+            android:layout_marginLeft="10dip"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/CustomMonoFont"/>
+        <TextView
+            android:text="@string/motor_right"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:layout_marginTop="5dip"
+            android:layout_marginLeft="10dip"
+
+            android:textColor="@color/color1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/CustomMonoFont"/>
+        <Spinner
+            android:layout_row="0"
+            android:layout_column="4"
+            android:id="@+id/rightmotor_spinner"
+            android:layout_width="150dp"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/CustomMonoFont"/>
+<!--
+        <TextView
+            android:text="@string/motor_arm"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_marginTop="5dip"
+            android:layout_marginLeft="10dip"
+
+            android:textColor="@color/color1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/CustomMonoFont"/>
+        <Spinner
+            android:layout_row="1"
+            android:layout_column="1"
+            android:id="@+id/armmotor_spinner"
+            android:layout_marginLeft="10dip"
+
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/CustomMonoFont"/>
+-->
+
+    </android.support.v7.widget.GridLayout>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ok"
+        android:paddingTop="15dip"
+        android:layout_weight="1"
+        android:paddingBottom="15dip"
+        android:paddingLeft="40dip"
+        android:paddingRight="40dip"
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="5dip"
+        android:layout_gravity="center"
+        android:id="@+id/doneButton"
+        style="@style/button2"/>
+</LinearLayout>
